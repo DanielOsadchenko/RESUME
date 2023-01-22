@@ -1,0 +1,78 @@
+.jarallax {
+  display: block;
+  width: 60%;
+  height: 400px;
+}
+
+.project-card {
+  margin-bottom: 40px;
+}
+
+.projects {
+  text-align: center;
+}
+
+.background {
+  background-color: #071829;
+}
+
+.projects-title {
+  font-size: 60px;
+  color: #49c5b6;
+  margin-bottom: 50px;
+}
+
+
+
+.project-card {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+}
+
+.box-project {
+  width: 45%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.about-project {
+  font-size: 32px;
+}
+
+.name-project {
+  font-size: 40px;
+  color: #49c5b6;
+}
+
+.technologies-project {
+  font-size: 24px;
+}
+
+.image-link-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.image-link {
+  border: 3px solid #49c5b6;
+  padding: 6px 12px;
+  color: #fff;
+  font-size: 28px;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #49c5b6;
+  }
+  &+& {
+    margin-left: 20px;
+  }
+}
