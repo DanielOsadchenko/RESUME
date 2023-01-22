@@ -4,10 +4,6 @@
   height: 400px;
 }
 
-.project-card {
-  margin-bottom: 40px;
-}
-
 .projects {
   text-align: center;
 }
@@ -20,14 +16,17 @@
   font-size: 60px;
   color: #49c5b6;
   margin-bottom: 50px;
+  text-shadow: 0 0 1px #63e7d8;
 }
 
 
 
 .project-card {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   display: flex;
+
+  
 }
 
 .box-project {
