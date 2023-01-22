@@ -2,14 +2,14 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://DanielOsadchenko.github.io/parallax-site",
+  "homepage": "https://DanielOsadchenko.github.io/RESUME",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parallax-site/"
+    "build": "parcel build src/*.html --public-url /RESUME/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DanielOsadchenko/parallax-site.git"
+    "url": "git+https://github.com/DanielOsadchenko/RESUME.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
