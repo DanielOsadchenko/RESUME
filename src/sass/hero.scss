@@ -21,12 +21,31 @@ header {
 
 .header-box {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+
+  @include tablet {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
 }
 
 .header-name {
   color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+
+  @include tablet {
+    font-size: 32px;
+    margin-bottom: 0px;
+    display: inline;
+    width: auto;
+    text-align: start;
+  }
 }
 
 
@@ -38,16 +57,28 @@ header {
 
 .header-item {
   &+& {
-    margin-left: 24px;
+    margin-left: 12px;
+
+    @include tablet {
+      margin-left: 18px;
+    }
+
+        @include desktop {
+          margin-left: 24px;
+        }
   }
 }
 
 .header-link {
-  font-size: 24px;
+  font-size: 18px;
   color: #fff;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover {
     color: #49c5b6;
+  }
+
+  @include tablet {
+    font-size: 24px;
   }
 }
 
@@ -59,20 +90,29 @@ header {
 }
 
 .hero-title {
-  font-size: 200px;
+  font-size: 100px;
   color: #49c5b6;
   letter-spacing: 0.01em;
   margin-bottom: 24px;
   
+  @include tablet {
+    font-size: 200px;
+  }
+
 }
 
 .hero-about {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 650px;
+  max-width: 480px;
   color: #fff;
   margin-bottom: 36px;
+
+  @include tablet {
+    min-width: 650px;
+    max-width: 650px;
+  }
 
 }
 
